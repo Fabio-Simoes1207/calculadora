@@ -1,0 +1,191 @@
+@keyframes btn-pisca {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+body{
+    background-color: gray;
+}
+
+.form{
+    background-color: aliceblue;
+    border-radius: 100px;
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+    left: 130px;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+}
+
+.titulo{
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    -webkit-animation: btn-pisca 1.0s linear ;
+   -moz-animation: btn-pisca 1.0s linear ;
+   -ms-animation: btn-pisca 1.0s linear ;
+   -o-animation: btn-pisca 1.0s linear ;
+   animation: btn-pisca 1.0s linear ;
+}
+/* .titulo{
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    -webkit-animation: btn-pisca 1.0s linear infinite;
+   -moz-animation: btn-pisca 1.0s linear infinite;
+   -ms-animation: btn-pisca 1.0s linear infinite;
+   -o-animation: btn-pisca 1.0s linear infinite;
+   animation: btn-pisca 5.0s linear infinite;
+} */
+.digitar{
+    font-size: 25px;
+    -webkit-animation: btn-pisca 1.0s linear ;
+   -moz-animation: btn-pisca 1.0s linear ;
+   -ms-animation: btn-pisca 1.0s linear ;
+   -o-animation: btn-pisca 1.0s linear ;
+   animation: btn-pisca 1.0s linear ;
+}
+.val1{
+    background: rgb(209, 206, 206);
+    border-radius: 100px;
+    border-color: blue;
+    width: 250px;
+    height: 30px;
+    -webkit-animation: btn-pisca 20.0s linear ;
+   -moz-animation: btn-pisca 20.0s linear ;
+   -ms-animation: btn-pisca 20.0s linear ;
+   -o-animation: btn-pisca 20.0s linear ;
+   animation: btn-pisca 20.0s linear ;
+}
+.val2{
+    background: rgb(209, 206, 206);
+    border-radius: 100px;
+    border-color: blue;
+    width: 250px;
+    height: 30px;
+    -webkit-animation: btn-pisca 20.0s linear ;
+   -moz-animation: btn-pisca 20.0s linear ;
+   -ms-animation: btn-pisca 20.0s linear ;
+   -o-animation: btn-pisca 20.0s linear ;
+   animation: btn-pisca 20.0s linear ;
+}
+
+/* .soma{
+   font-size: 15px;
+   width:140px;
+   height: 50px;
+   text-align: center; 
+   background-color:#0c1fce;
+   color:rgb(248, 248, 248);
+   padding: 0.6em 0.8em;
+   display: inline-block;
+   text-decoration: none;
+   border-radius: 4000px; 
+   -webkit-animation: btn-pisca .9s linear infinite;
+   -moz-animation: btn-pisca .9s linear infinite;
+   -ms-animation: btn-pisca .9s linear infinite;
+   -o-animation: btn-pisca .9s linear infinite;
+   animation: btn-pisca .9s linear infinite;
+} */
+.soma{
+    background-color: rgb(0, 195, 255);
+    color: rgb(2, 2, 2);
+    border-radius: 5000px;
+    font-size: 15px;
+    width:140px;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    border-color: rgb(131, 128, 128);
+    -webkit-animation: btn-pisca 20.0s linear ;
+   -moz-animation: btn-pisca 20.0s linear ;
+   -ms-animation: btn-pisca 20.0s linear ;
+   -o-animation: btn-pisca 20.0s linear ;
+   animation: btn-pisca 20.0s linear ;
+}
+
+.sub{
+    background-color: rgb(0, 195, 255);
+    color: rgb(2, 2, 2);
+    border-radius: 5000px;
+    font-size: 15px;
+    width:140px;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    border-color: rgb(131, 128, 128);
+    -webkit-animation: btn-pisca 20.0s linear ;
+   -moz-animation: btn-pisca 20.0s linear ;
+   -ms-animation: btn-pisca 20.0s linear ;
+   -o-animation: btn-pisca 20.0s linear ;
+   animation: btn-pisca 20.0s linear ;
+}
+.div{
+    background-color: rgb(0, 195, 255);
+    color: rgb(2, 2, 2);
+    border-radius: 5000px;
+    font-size: 15px;
+    width:140px;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    border-color: rgb(131, 128, 128);
+    -webkit-animation: btn-pisca 20.0s linear ;
+   -moz-animation: btn-pisca 20.0s linear ;
+   -ms-animation: btn-pisca 20.0s linear ;
+   -o-animation: btn-pisca 20.0s linear ;
+   animation: btn-pisca 20.0s linear ;
+}
+.mult{
+    background-color: rgb(0, 195, 255);
+    color: rgb(2, 2, 2);
+    border-radius: 5000px;
+    font-size: 15px;
+    width:140px;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    border-color: rgb(131, 128, 128);
+    -webkit-animation: btn-pisca 20.0s linear ;
+   -moz-animation: btn-pisca 20.0s linear ;
+   -ms-animation: btn-pisca 20.0s linear ;
+   -o-animation: btn-pisca 20.0s linear ;
+   animation: btn-pisca 20.0s linear ;
+}
+.exp{
+    background-color: rgb(0, 195, 255);
+    color: rgb(2, 2, 2);
+    border-radius: 5000px;
+    font-size: 15px;
+    width:140px;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    border-color: rgb(131, 128, 128);
+    -webkit-animation: btn-pisca 20.0s linear ;
+   -moz-animation: btn-pisca 20.0s linear ;
+   -ms-animation: btn-pisca 20.0s linear ;
+   -o-animation: btn-pisca 20.0s linear ;
+   animation: btn-pisca 20.0s linear ;
+}
+.limpa{
+    background-color: rgb(0, 195, 255);
+    color: rgb(2, 2, 2);
+    border-radius: 5000px;
+    font-size: 15px;
+    width:140px;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    border-color: rgb(131, 128, 128);
+    -webkit-animation: btn-pisca 20.0s linear ;
+   -moz-animation: btn-pisca 20.0s linear ;
+   -ms-animation: btn-pisca 20.0s linear ;
+   -o-animation: btn-pisca 20.0s linear ;
+   animation: btn-pisca 20.0s linear ;
+}

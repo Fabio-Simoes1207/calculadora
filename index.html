@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
 <body>
@@ -13,18 +14,20 @@
         </div>
         <form>
             <div class="col-sm-8" id="divQuadro">
-                <div class="Selecionar">
-                    <label >Selecione a operação:</label>
-                    <p><input type="text" value="" id="valor1"></p>
-                    <p><input type="text" value="" id="valor2"></p>
-                    <p>
-                    <input type="button" value="Soma" id="soma">
-                    <input type="button" value="Subtração" id="sub">
-                    <input type="button" value="Multiplicação" id="mult">
-                    <input type="button" value="Divisão" id="div">
-                    <input type="button" value="exponenciação" id="exp">
-                    <input type="button" value="Limpar a Tela" id="limpa">
-                    </p>
+                <div >
+                    <label class="digitar">Digite os valores:</label>
+                    <p><input type="text" value="" id="valor1" class="val1"></p>
+                    <p><input type="text" value="" id="valor2" class="val2"></p>
+                    <div class="botoes">
+                        <p>
+                            <input type="button" value="Soma" id="soma" class="soma">
+                            <input type="button" value="Subtração" id="sub" class="sub">
+                            <input type="button" value="Multiplicação" id="mult" class="mult">
+                            <input type="button" value="Divisão" id="div" class="div">
+                            <input type="button" value="exponenciação" id="exp" class="exp">
+                            <input type="button" value="Limpar a Tela" id="limpa" class="limpa">
+                        </p>
+                    </div>
                 </div>
             </div>
         </form>

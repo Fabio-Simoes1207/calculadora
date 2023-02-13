@@ -46,7 +46,7 @@ frm.mult.addEventListener("click", (e) => {
     var num1 = Number(document.getElementById("valor1").value);
     var num2 = Number(document.getElementById("valor2").value);
     const resultados = num1 * num2
-    const h5 = document.createElement("h5")       // cria o elemento HTML h5
+    const h5 = document.createElement("h2")       // cria o elemento HTML h5
     const texto = document.createTextNode(num1 + ' * '+ num2 + ': ' + resultados) // cria um texto
     h5.appendChild(texto)                         // define que texto será filho de h5
     dvQuadro.appendChild(h5)   
