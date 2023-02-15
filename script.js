@@ -88,10 +88,10 @@ frm.exp.addEventListener("click", (e) => {
     frm.valor1.value = ""                       // limpa o campo de edição
     frm.valor2.value = ""
     frm.valor1.focus()                          // joga o cursor neste campo
+    
 })
 
 frm.limpa.addEventListener("click", (e) => {
     e.preventDefault()
-    // var form = document.getElementById('form');
-    frm.reset();
+    location.reload();
 })

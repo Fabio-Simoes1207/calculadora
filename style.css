@@ -11,7 +11,7 @@ body{
 .form{
     background-color: aliceblue;
     border-radius: 100px;
-    height: 1000px;
+    height: 650px;
     width: 1000px;
     position: relative;
     left: 130px;
@@ -26,29 +26,14 @@ body{
     font-size: 25px;
     color: black;
     font-weight: bolder;
-    -webkit-animation: btn-pisca 1.0s linear ;
-   -moz-animation: btn-pisca 1.0s linear ;
-   -ms-animation: btn-pisca 1.0s linear ;
-   -o-animation: btn-pisca 1.0s linear ;
-   animation: btn-pisca 1.0s linear ;
+    position: relative;
+    top: -200px;
 }
-/* .titulo{
-    font-size: 25px;
-    color: black;
-    font-weight: bolder;
-    -webkit-animation: btn-pisca 1.0s linear infinite;
-   -moz-animation: btn-pisca 1.0s linear infinite;
-   -ms-animation: btn-pisca 1.0s linear infinite;
-   -o-animation: btn-pisca 1.0s linear infinite;
-   animation: btn-pisca 5.0s linear infinite;
-} */
+
 .digitar{
     font-size: 25px;
-    -webkit-animation: btn-pisca 1.0s linear ;
-   -moz-animation: btn-pisca 1.0s linear ;
-   -ms-animation: btn-pisca 1.0s linear ;
-   -o-animation: btn-pisca 1.0s linear ;
-   animation: btn-pisca 1.0s linear ;
+    position: relative;
+    top: -10px;
 }
 .val1{
     background: rgb(209, 206, 206);
@@ -56,11 +41,7 @@ body{
     border-color: blue;
     width: 250px;
     height: 30px;
-    -webkit-animation: btn-pisca 20.0s linear ;
-   -moz-animation: btn-pisca 20.0s linear ;
-   -ms-animation: btn-pisca 20.0s linear ;
-   -o-animation: btn-pisca 20.0s linear ;
-   animation: btn-pisca 20.0s linear ;
+    
 }
 .val2{
     background: rgb(209, 206, 206);
@@ -68,13 +49,20 @@ body{
     border-color: blue;
     width: 250px;
     height: 30px;
-    -webkit-animation: btn-pisca 20.0s linear ;
-   -moz-animation: btn-pisca 20.0s linear ;
-   -ms-animation: btn-pisca 20.0s linear ;
-   -o-animation: btn-pisca 20.0s linear ;
-   animation: btn-pisca 20.0s linear ;
+    
 }
 
+.imagem{
+    position: relative;
+    top: 30px;
+    left: 300px;
+    border-radius: 50px;
+}
+
+.divquadro{
+    position: relative;
+    top: -200px;
+}
 /* .soma{
    font-size: 15px;
    width:140px;
@@ -102,11 +90,7 @@ body{
     text-align: center;
     font-weight: bolder;
     border-color: rgb(131, 128, 128);
-    -webkit-animation: btn-pisca 20.0s linear ;
-   -moz-animation: btn-pisca 20.0s linear ;
-   -ms-animation: btn-pisca 20.0s linear ;
-   -o-animation: btn-pisca 20.0s linear ;
-   animation: btn-pisca 20.0s linear ;
+    
 }
 
 .sub{
@@ -119,11 +103,7 @@ body{
     text-align: center;
     font-weight: bolder;
     border-color: rgb(131, 128, 128);
-    -webkit-animation: btn-pisca 20.0s linear ;
-   -moz-animation: btn-pisca 20.0s linear ;
-   -ms-animation: btn-pisca 20.0s linear ;
-   -o-animation: btn-pisca 20.0s linear ;
-   animation: btn-pisca 20.0s linear ;
+    
 }
 .div{
     background-color: rgb(0, 195, 255);
@@ -135,11 +115,7 @@ body{
     text-align: center;
     font-weight: bolder;
     border-color: rgb(131, 128, 128);
-    -webkit-animation: btn-pisca 20.0s linear ;
-   -moz-animation: btn-pisca 20.0s linear ;
-   -ms-animation: btn-pisca 20.0s linear ;
-   -o-animation: btn-pisca 20.0s linear ;
-   animation: btn-pisca 20.0s linear ;
+    
 }
 .mult{
     background-color: rgb(0, 195, 255);
@@ -151,11 +127,7 @@ body{
     text-align: center;
     font-weight: bolder;
     border-color: rgb(131, 128, 128);
-    -webkit-animation: btn-pisca 20.0s linear ;
-   -moz-animation: btn-pisca 20.0s linear ;
-   -ms-animation: btn-pisca 20.0s linear ;
-   -o-animation: btn-pisca 20.0s linear ;
-   animation: btn-pisca 20.0s linear ;
+    
 }
 .exp{
     background-color: rgb(0, 195, 255);
@@ -167,11 +139,7 @@ body{
     text-align: center;
     font-weight: bolder;
     border-color: rgb(131, 128, 128);
-    -webkit-animation: btn-pisca 20.0s linear ;
-   -moz-animation: btn-pisca 20.0s linear ;
-   -ms-animation: btn-pisca 20.0s linear ;
-   -o-animation: btn-pisca 20.0s linear ;
-   animation: btn-pisca 20.0s linear ;
+    
 }
 .limpa{
     background-color: rgb(0, 195, 255);
@@ -183,9 +151,5 @@ body{
     text-align: center;
     font-weight: bolder;
     border-color: rgb(131, 128, 128);
-    -webkit-animation: btn-pisca 20.0s linear ;
-   -moz-animation: btn-pisca 20.0s linear ;
-   -ms-animation: btn-pisca 20.0s linear ;
-   -o-animation: btn-pisca 20.0s linear ;
-   animation: btn-pisca 20.0s linear ;
+   
 }
